@@ -1,13 +1,11 @@
 import React from 'react'
 import {
   Image,
-  FileText,
-  BarChart3,
   MessageSquare,
   Code,
   Languages,
-  Calendar,
-  Brain,
+  Sparkles,
+  ScanText,
   ArrowRight
 } from 'lucide-react'
 
@@ -28,32 +26,32 @@ const UseCases = () => {
       telegramCommand: '/generate',
     },
     {
-      id: 'document-analysis',
-      icon: FileText,
-      title: 'Анализ документов',
-      description: 'Обрабатывайте и извлекайте информацию из документов',
+      id: 'avatar-styling',
+      icon: Sparkles,
+      title: 'Стилизация аватарок',
+      description: 'Превратите фото в стиль Гибли или Дисней',
       examples: [
-        'Резюмирование больших текстов',
-        'Извлечение ключевых данных',
-        'Перевод и форматирование',
+        'Аватарки в стиле Studio Ghibli',
+        'Портреты в стиле Disney',
+        'Уникальные стилизованные фото',
+      ],
+      color: 'from-purple-500 to-pink-500',
+      bgColor: 'bg-purple-50',
+      telegramCommand: '/style',
+    },
+    {
+      id: 'ocr',
+      icon: ScanText,
+      title: 'Текст с фотографии',
+      description: 'Распознавайте и извлекайте текст из изображений',
+      examples: [
+        'Сканирование документов',
+        'Извлечение текста из скриншотов',
+        'Перевод текста с фото',
       ],
       color: 'from-blue-500 to-cyan-500',
       bgColor: 'bg-blue-50',
-      telegramCommand: '/analyze',
-    },
-    {
-      id: 'data-processing',
-      icon: BarChart3,
-      title: 'Обработка данных',
-      description: 'Анализируйте данные и получайте визуализации',
-      examples: [
-        'Создание графиков и диаграмм',
-        'Статистический анализ',
-        'Обработка таблиц и CSV',
-      ],
-      color: 'from-green-500 to-emerald-500',
-      bgColor: 'bg-green-50',
-      telegramCommand: '/data',
+      telegramCommand: '/ocr',
     },
     {
       id: 'conversation',
@@ -65,8 +63,8 @@ const UseCases = () => {
         'Консультации и рекомендации',
         'Brainstorming идей',
       ],
-      color: 'from-purple-500 to-violet-500',
-      bgColor: 'bg-purple-50',
+      color: 'from-violet-500 to-purple-500',
+      bgColor: 'bg-violet-50',
       telegramCommand: '/chat',
     },
     {
@@ -96,34 +94,6 @@ const UseCases = () => {
       color: 'from-indigo-500 to-blue-500',
       bgColor: 'bg-indigo-50',
       telegramCommand: '/translate',
-    },
-    {
-      id: 'planning',
-      icon: Calendar,
-      title: 'Планирование задач',
-      description: 'Организуйте свой день и управляйте задачами',
-      examples: [
-        'Создание расписаний',
-        'Декомпозиция проектов',
-        'Напоминания и трекинг',
-      ],
-      color: 'from-teal-500 to-cyan-500',
-      bgColor: 'bg-teal-50',
-      telegramCommand: '/plan',
-    },
-    {
-      id: 'learning',
-      icon: Brain,
-      title: 'Обучение и знания',
-      description: 'Изучайте новые темы и получайте объяснения',
-      examples: [
-        'Объяснение сложных концепций',
-        'Генерация учебных материалов',
-        'Подготовка к экзаменам',
-      ],
-      color: 'from-red-500 to-pink-500',
-      bgColor: 'bg-red-50',
-      telegramCommand: '/learn',
     },
   ]
 
