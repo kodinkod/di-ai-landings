@@ -5,7 +5,6 @@ import UseCases from './components/UseCases'
 import NanaBananaShowcase from './components/NanaBananaShowcase'
 import PromptsLibrary from './components/PromptsLibrary'
 import OCRShowcase from './components/OCRShowcase'
-import Features from './components/Features'
 import CTA from './components/CTA'
 import Footer from './components/Footer'
 
@@ -27,7 +26,6 @@ function App() {
           <UseCases />
           <NanaBananaShowcase onViewAllPrompts={() => handleTabChange('prompts')} />
           <OCRShowcase />
-          <Features />
           <CTA />
           <Footer />
         </>

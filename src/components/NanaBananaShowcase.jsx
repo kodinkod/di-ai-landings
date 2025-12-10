@@ -204,51 +204,22 @@ const NanaBananaShowcase = ({ onViewAllPrompts }) => {
           })}
         </div>
 
-        {/* How it works */}
+        {/* CTA to library */}
         <div className="mt-16 text-center">
-          <div className="glass-effect rounded-2xl p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold mb-6">
-              Как работать с промптами?
-            </h3>
-            <div className="grid md:grid-cols-3 gap-6 text-left">
-              <div>
-                <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center text-purple-600 font-bold mb-3">
-                  1
-                </div>
-                <p className="text-gray-700">
-                  <span className="font-semibold">Откройте бота</span> и отправьте фото
-                </p>
-              </div>
-              <div>
-                <div className="w-10 h-10 bg-pink-100 rounded-full flex items-center justify-center text-pink-600 font-bold mb-3">
-                  2
-                </div>
-                <p className="text-gray-700">
-                  <span className="font-semibold">Напишите промпт</span> (можно копировать из примеров)
-                </p>
-              </div>
-              <div>
-                <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-bold mb-3">
-                  3
-                </div>
-                <p className="text-gray-700">
-                  <span className="font-semibold">Получите результат</span> за несколько секунд
-                </p>
-              </div>
-            </div>
+          <div className="glass-effect rounded-2xl p-12 max-w-3xl mx-auto">
+            {/* Big CTA Button */}
+            <button
+              onClick={onViewAllPrompts}
+              className="px-12 py-5 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white rounded-2xl font-bold text-2xl transition-all duration-200 shadow-2xl hover:shadow-3xl hover:scale-105 inline-flex items-center gap-3"
+            >
+              Смотреть все 40+ промптов
+              <ArrowRight className="w-6 h-6" />
+            </button>
 
-            {/* Button to library */}
-            <div className="mt-8">
-              <button
-                onClick={onViewAllPrompts}
-                className="px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white rounded-xl font-semibold text-lg transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center gap-2"
-              >
-                Смотреть все 40+ промптов
-                <ArrowRight className="w-5 h-5" />
-              </button>
-              <p className="text-sm text-gray-500 mt-3">
-                Стилизация, ретушь, изменение погоды, одежды и многое другое
-              </p>
+            {/* Concise instructions below */}
+            <div className="mt-6 text-gray-600 space-y-1">
+              <p className="text-sm">Откройте бота → Отправьте фото → Напишите промпт → Получите результат</p>
+              <p className="text-xs text-gray-500">Стилизация, ретушь, изменение погоды, одежды и многое другое</p>
             </div>
           </div>
         </div>
