@@ -71,7 +71,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <img src="logo.png" alt="Character" className="w-512 h-512 object-contain" />
+          <img src="public/logo.png" alt="Character" className="w-512 h-512 object-contain" />
         </div>
       </div>
 
