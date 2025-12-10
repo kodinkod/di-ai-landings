@@ -8,8 +8,8 @@ const Navigation = ({ currentTab, onTabChange }) => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className="text-2xl">🤖</div>
-            <span className="font-bold text-xl gradient-text">AI Ассистент</span>
+            <img src="logo.png" alt="You AI" className="h-8 w-8 object-contain" />
+            <span className="font-bold text-xl gradient-text">You AI</span>
           </div>
 
           {/* Tabs */}

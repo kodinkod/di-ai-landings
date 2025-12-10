@@ -22,7 +22,7 @@ const Hero = () => {
           <div className="text-center lg:text-left animate-fade-in">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-100 rounded-full text-blue-700 text-sm font-medium mb-6">
               <Sparkles className="w-4 h-4" />
-              <span>AI-ассистент нового поколения</span>
+              <span>AI со всем нужным</span>
             </div>
 
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
@@ -71,24 +71,7 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Right side - Logo/Character placeholder */}
-          <div className="relative animate-slide-up">
-            <div className="relative aspect-square max-w-md mx-auto">
-              {/* Placeholder для вашего мультяшного персонажа */}
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-purple-500 rounded-3xl transform rotate-6 opacity-20"></div>
-              <div className="relative bg-white rounded-3xl shadow-2xl p-8 flex items-center justify-center border border-gray-200">
-                {/* ВСТАВЬТЕ СЮДА ВАШ ЛОГОТИП/ПЕРСОНАЖА */}
-                <div className="text-center">
-                  <div className="w-64 h-64 bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl flex items-center justify-center mb-4">
-                    <div className="text-8xl">🤖</div>
-                  </div>
-                  <p className="text-gray-500 text-sm">
-                    Замените этот блок на вашего персонажа
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <img src="logo.png" alt="Character" className="w-512 h-512 object-contain" />
         </div>
       </div>
 
