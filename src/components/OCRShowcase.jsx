@@ -3,7 +3,7 @@ import { ScanText, ArrowRight, CheckCircle2 } from 'lucide-react'
 
 const OCRShowcase = () => {
   const handleOCRClick = () => {
-    window.open('https://t.me/YOUR_BOT_USERNAME?start=/ocr', '_blank')
+    window.open('https://t.me/your_ones_ai_bot?start=/ocr', '_blank')
   }
 
   return (

@@ -692,7 +692,7 @@ const PromptsLibrary = () => {
   }
 
   const handleTryBot = () => {
-    window.open('https://t.me/YOUR_BOT_USERNAME', '_blank')
+    window.open('https://t.me/your_ones_ai_bot', '_blank')
   }
 
   const filteredPrompts = prompts.filter(p => {

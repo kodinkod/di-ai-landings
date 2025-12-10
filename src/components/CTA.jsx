@@ -4,7 +4,7 @@ import { ArrowRight, MessageCircle } from 'lucide-react'
 const CTA = () => {
   const handleTelegramClick = () => {
     // Замените на ваш Telegram бот URL
-    window.open('https://t.me/YOUR_BOT_USERNAME', '_blank')
+    window.open('https://t.me/your_ones_ai_bot', '_blank')
   }
 
   return (

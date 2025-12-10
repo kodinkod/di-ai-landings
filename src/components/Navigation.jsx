@@ -45,7 +45,7 @@ const Navigation = ({ currentTab, onTabChange }) => {
 
           {/* CTA Button */}
           <button
-            onClick={() => window.open('https://t.me/YOUR_BOT_USERNAME', '_blank')}
+            onClick={() => window.open('https://t.me/your_ones_ai_bot', '_blank')}
             className="hidden md:block px-6 py-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white rounded-lg font-semibold transition-all shadow-lg hover:shadow-xl"
           >
             Открыть бота

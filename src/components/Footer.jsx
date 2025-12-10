@@ -24,7 +24,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://t.me/YOUR_BOT_USERNAME" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                <a href="https://t.me/your_ones_ai_bot" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                   Открыть бота
                 </a>
               </li>

@@ -89,7 +89,7 @@ const NanaBananaShowcase = ({ onViewAllPrompts }) => {
   }
 
   const handleOpenBot = () => {
-    window.open('https://t.me/YOUR_BOT_USERNAME', '_blank')
+    window.open('https://t.me/your_ones_ai_bot', '_blank')
   }
 
   return (
