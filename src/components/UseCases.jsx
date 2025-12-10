@@ -2,8 +2,6 @@ import React from 'react'
 import {
   Image,
   MessageSquare,
-  Code,
-  Languages,
   Sparkles,
   ScanText,
   ArrowRight
@@ -66,34 +64,6 @@ const UseCases = () => {
       color: 'from-violet-500 to-purple-500',
       bgColor: 'bg-violet-50',
       telegramCommand: '/chat',
-    },
-    {
-      id: 'code-help',
-      icon: Code,
-      title: 'Помощь с кодом',
-      description: 'Пишите, проверяйте и оптимизируйте код',
-      examples: [
-        'Генерация кода на разных языках',
-        'Поиск и исправление ошибок',
-        'Рефакторинг и оптимизация',
-      ],
-      color: 'from-orange-500 to-amber-500',
-      bgColor: 'bg-orange-50',
-      telegramCommand: '/code',
-    },
-    {
-      id: 'translation',
-      icon: Languages,
-      title: 'Перевод текстов',
-      description: 'Переводите между языками с учетом контекста',
-      examples: [
-        'Перевод статей и документов',
-        'Локализация контента',
-        'Изучение иностранных языков',
-      ],
-      color: 'from-indigo-500 to-blue-500',
-      bgColor: 'bg-indigo-50',
-      telegramCommand: '/translate',
     },
   ]
 
